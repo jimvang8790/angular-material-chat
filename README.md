@@ -18,6 +18,18 @@ Material Chat uses a number of open source projects to work properly:
 * [Gulp] - the streaming build system
 * [Faker] - A library for generating fake data such as names, addresses, and phone numbers.
 
+### To Start
+
+$ npm install 
+or
+$ bower install
+
+### To Run
+
+$ gulp serve
+
+on localhost:3000
+
 
 License
 ----
