@@ -82,3 +82,8 @@ section.jumbotron h1 {
   float: right;
   width: 100px;
 }
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar), md-toolbar:not(.md-menu-toolbar) {
+  background-color: #26AAE1;
+}
+

@@ -1,3 +1,4 @@
+<!-- Chat Display -->
 <div layout="row" flex>
 	<md-content style="background-color: #DCDCDC;" id="chat-content">
 	  <md-list>
@@ -9,7 +10,7 @@
 		      </div>
 		    </div>
 	      <div flex-order = "1"
-		      style="background-color: white; padding: 10px; border-radius: 5px;" 
+		      style="background-color: white; padding: 10px; border-radius: 5px;"
 		      layout-fill>
 	      	{{message.text}}
 	      </div>
@@ -17,9 +18,11 @@
 	  </md-list>
 	</md-content>
 </div>
+
+<!-- Message Input -->
 <form layout="row" style="padding: 20px;" ng-submit="chat.sendMessage()" autocomplete="off">
 	<md-input-container flex layout-align="center" layout-fill>
 	  <label>What do you want to say?</label>
-	  <input type="text" ng-model="chat.myMessage"></input>
+	  <input type="text" ng-model="chat.myMessage">
 	</md-input-container>
 </form>

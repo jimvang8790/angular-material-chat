@@ -20,6 +20,9 @@
     /** @ngInject */
     function ChatController($rootScope, $scope, $timeout) {
       var chat = this;
+      console.log('****************** 1 ******************');
+      console.log(1);
+      console.log('**********************************************');
       chat.messages = [];
       chat.sendMessage = sendMessage;
 

@@ -2,3 +2,8 @@
 	text-align: right;
 	float: right;
 }
+
+
+by-sidebar {
+  order: -1;
+}
